@@ -1,0 +1,16 @@
+{
+  "name": "sandboxoperations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runSandbox.js",
+  "scripts": {
+    "ON": "node sandboxOperation.js start",
+    "OFF": "node sandboxOperation.js stop",
+    "test": "node sandboxOperation.js test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
